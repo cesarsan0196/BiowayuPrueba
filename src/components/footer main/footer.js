@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundfooter from "./footerMain.png";
+import backgroundfooter from "./footermain.png";
 import Contact from '../contactForm/contact'
 import videito from './videito.png'
 
