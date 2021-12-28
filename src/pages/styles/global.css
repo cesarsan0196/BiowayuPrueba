@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: body;            
+      src: url(./fonts/awakening.ttf);
+    }
+    @font-face {
+      font-family: parrafos;            
+      src: url(./fonts/crimstone-printed.otf);
+    }
+  }

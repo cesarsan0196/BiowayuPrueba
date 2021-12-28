@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'awakening';
+    src: url(./fonts/awakening.ttf);
+    font-style: normal;
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'crimstone';            
+    src: url(./fonts/crimstone-printed.otf);
+    font-style: normal;
+    font-weight: bolder;
+  }
+
