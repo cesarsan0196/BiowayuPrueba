@@ -8,7 +8,7 @@ import { Footer } from "../../../components/footer/footer";
 import { Header } from "../../../components/header/header";
 import useStore from "../../../context/StoreContext";
 import useInput from "../../../utils/useInput";
-
+import { Wsp } from "../../../components/wsp/wspbutton";
 
 export const query = graphql`
 	query($id: String = "") {
@@ -67,7 +67,7 @@ const Product = ({ data }) => {
             }}
         >
             <Header/>
-            <Link to="/">
+            <Link to="/catalogo/catalogo">
             <button className={botoncitoAtras}>Atras</button>
             </Link>            
             <div className={container}>
@@ -84,7 +84,7 @@ const Product = ({ data }) => {
 				</div>
             </div>
             <Footer/>
-
+			<Wsp/>
 			
 		</main>
 	);

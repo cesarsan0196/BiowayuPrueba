@@ -40,13 +40,15 @@ const Mainsito = () => {
                     <div className="font-parrafos text-2xl">NUESTROS PRODUCTOS</div>
                     <div className="flex  justify-center md:justify-end "><img alt="logo" src={logo1}/><img alt="logo2" src={logo2}/><img alt="logo3" src={logo3}/></div>
                 </div>                
-            </div>       
-        <div className="flex items-center text-center justify-center pb-8">
+            </div>
+        <div className="flex items-center text-center justify-center">           
+        <div className="py-8 w-1/2 md:w-2/3 lg:w-1/2 h-full">
             <SlideShow/>         
+        </div>
         </div>
             <div className="flex items-center text-center justify-center font-parrafos text-2xl ">PRODUCTO ECOLOGICO</div>
             <div className="flex items-center text-center justify-center">
-                <div className="max-w-3xl grid grid-cols-1 md:grid-cols-3 gap-4 py-4">
+                <div className="w-80 md:w-1/2 grid grid-cols-1 gap-4 py-4 md:grid-cols-3">
                     <div><img alt="cotiza" src={cotiza}/></div>
                     <div><img alt="catalogo" src={catalogo}/></div>
                     <div><img alt="merch" src={merch}/></div>

@@ -23,9 +23,9 @@ function SideMenu(){
     return(
         <div className="fixed h-screen w-1/2 lg:w-24 top-15 left-50">
             <ul className="menu-list flex flex-col font-semibold bg-yellow-50 lg:bg-transparent">
-                <li className="menu-list-item py-2 hover:text-green-200 font-body"><a href="/main/main">Nosotros</a></li>
-                <li className="menu-list-item py-2 hover:text-green-200 font-body"><a href="/">Catalogo</a></li>
-                <li className="menu-list-item py-2 hover:text-green-200 font-body"><a href="cart">Carrito</a></li>
+                <li className="menu-list-item py-2 hover:text-green-200 font-body"><a href="/">Nosotros</a></li>
+                <li className="menu-list-item py-2 hover:text-green-200 font-body"><a href="/catalogo/catalogo">Catalogo</a></li>
+                <li className="menu-list-item py-2 hover:text-green-200 font-body"><a href="/cart/cart">Carrito</a></li>
             </ul>
         </div>
     )
